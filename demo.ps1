@@ -1,4 +1,4 @@
-﻿# Wireshell One-Click Launch & Connect Test
+# Wireshell One-Click Launch & Connect Test
 Write-Host "⚡ Building & Launching Wireshell P2P Test..." -ForegroundColor Cyan
 
 go build -ldflags="-s -w" -o wireshell.exe ./cmd/wireshell
@@ -8,3 +8,4 @@ if ($LASTEXITCODE -ne 0) {
 }
 
 .\wireshell.exe test-mesh
+
