@@ -1,4 +1,4 @@
-﻿# Wireshell Windows Build Script
+# Wireshell Windows Build Script
 Write-Host "🔨 Building Wireshell for Windows (amd64)..." -ForegroundColor Cyan
 
 $env:GOOS = "windows"
@@ -12,3 +12,4 @@ if ($LASTEXITCODE -eq 0) {
 } else {
     Write-Host "❌ Build failed." -ForegroundColor Red
 }
+

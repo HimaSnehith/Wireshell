@@ -56,3 +56,4 @@ func TestConfigLifeCycle(t *testing.T) {
 		t.Fatalf("Failed to remove peer")
 	}
 }
+

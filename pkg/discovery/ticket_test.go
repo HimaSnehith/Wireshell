@@ -47,3 +47,4 @@ func TestTicketEncodeDecode(t *testing.T) {
 		t.Fatalf("Expected 2 endpoints, got %d", len(parsed.Endpoints))
 	}
 }
+

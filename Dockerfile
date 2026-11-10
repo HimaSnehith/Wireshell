@@ -29,3 +29,4 @@ EXPOSE 51820/udp
 
 ENTRYPOINT ["/usr/local/bin/wireshell"]
 CMD ["up"]
+

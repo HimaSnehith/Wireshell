@@ -197,3 +197,4 @@ func isElevated() bool {
 	// Root check helper
 	return os.Geteuid() == 0
 }
+

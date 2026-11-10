@@ -47,3 +47,4 @@ func TestBuildUAPIConfig(t *testing.T) {
 		t.Errorf("UAPI missing persistent keepalive")
 	}
 }
+

@@ -146,3 +146,4 @@ func (c *Config) RemovePeer(publicKey string) bool {
 	}
 	return false
 }
+

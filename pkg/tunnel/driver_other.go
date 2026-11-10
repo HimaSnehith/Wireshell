@@ -6,3 +6,4 @@ package tunnel
 func EnsureWintun() error {
 	return nil
 }
+

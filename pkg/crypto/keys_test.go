@@ -39,3 +39,4 @@ func TestKeyGeneration(t *testing.T) {
 		t.Errorf("Parsed key mismatch: expected %v, got %v", pub, parsed)
 	}
 }
+

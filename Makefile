@@ -1,4 +1,4 @@
-.PHONY: all build build-windows build-linux test clean
+.PHONY: all build build-windows build-linux test test-mesh demo clean
 
 BINARY_NAME=wireshell
 
@@ -15,6 +15,13 @@ build-linux:
 
 test:
 	go test -v ./...
+
+# 🚀 One command to build, launch, and test P2P connection & hole punching
+demo: build-windows
+	./wireshell.exe test-mesh
+
+test-mesh:
+	go run ./cmd/wireshell test-mesh
 
 clean:
 	rm -f $(BINARY_NAME) $(BINARY_NAME).exe $(BINARY_NAME)-linux-amd64

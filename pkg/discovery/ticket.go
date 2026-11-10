@@ -80,3 +80,4 @@ func ParseTicket(raw string) (*PeerTicket, error) {
 
 	return &ticket, nil
 }
+

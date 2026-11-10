@@ -55,3 +55,4 @@ func BuildUAPIConfig(privKey crypto.Key, listenPort int, peers []config.PeerConf
 func BuildUpdateEndpointUAPI(peerPubKey crypto.Key, endpoint string) string {
 	return fmt.Sprintf("public_key=%s\nupdate_only=true\nendpoint=%s\n", peerPubKey.Hex(), endpoint)
 }
+
