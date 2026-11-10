@@ -1,0 +1,8 @@
+wireshell.exe
+wireshell
+wireshell-linux-*
+*.test.exe
+/wintun.dll
+*.zip
+config.json
+.wireshell/

@@ -1,0 +1,14 @@
+services:
+  wireshell:
+    build: .
+    container_name: wireshell
+    restart: unless-stopped
+    cap_add:
+      - NET_ADMIN
+      - SYS_MODULE
+    devices:
+      - /dev/net/tun:/dev/net/tun
+    network_mode: host
+    volumes:
+      - ./config:/root/.wireshell
+    command: ["up"]
