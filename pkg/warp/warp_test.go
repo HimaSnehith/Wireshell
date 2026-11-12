@@ -40,3 +40,4 @@ func TestGenerateWarpConfig(t *testing.T) {
 	}
 	t.Logf("WARP Config created successfully. Peer: %s, Endpoint: %s", cfg.Peers[0].PublicKey, cfg.Peers[0].Endpoint)
 }
+

@@ -38,3 +38,4 @@ switch ($Command.ToLower()) {
         Write-Host "  .\run.ps1 build     -> Rebuild the wireshell.exe binary" -ForegroundColor Green
     }
 }
+
